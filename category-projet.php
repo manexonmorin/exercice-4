@@ -24,11 +24,11 @@ get_header();
 				<?php
 				/* Start the Loop */
 				while ( have_posts() ) :
-					the_post();
+					the_post(); ?>
 
-					get_template_part( 'template-parts/content', 'galerie');
+					<?php get_template_part( 'template-parts/content', 'galerie'); ?>
 
-				endwhile; ?>
+				<?php endwhile; ?>
 
 			</section>
 
