@@ -1,0 +1,7 @@
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+.galerie article {
+  margin: 2%;
+}/*# sourceMappingURL=galerie.css.map */
