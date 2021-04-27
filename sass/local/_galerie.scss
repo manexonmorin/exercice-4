@@ -4,6 +4,7 @@
     flex-direction: row;
 
     .flip-card {
+        margin: 2%;
         background-color: transparent;
         width: 150px;
         height: 150px;
@@ -41,5 +42,10 @@
         background-color: #2980b9;
         color: white;
         transform: rotateY(180deg);
+    }
+
+    a{
+        font-size: 0.6rem;
+        color: white;
     }
 }
