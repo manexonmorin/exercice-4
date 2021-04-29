@@ -1115,6 +1115,10 @@ body.home::after {
   font-size: clamp(.6rem, -0.875rem + 8.333vw,3rem);
 }
 
+.slide {
+  text-align: center;
+}
+
 /* --------------------------------------------------------------------------------------- 
 Liste des blocs de cours par type_de_cours
 ------------------------------------------------------------------------------------------ */
@@ -1430,10 +1434,16 @@ La barre du millieu
 
 /* local footer
 --------------------------------------------- */
+.site-footer {
+  margin: none;
+}
 .site-footer .site-info {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .site-footer .site-info .widget {
   background-color: rgba(238, 130, 238, 0.5);
+  width: 36vw;
 }/*# sourceMappingURL=style.css.map */

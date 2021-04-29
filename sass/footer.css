@@ -1,6 +1,10 @@
+.site-footer {
+  margin: none;
+}
 .site-footer .site-info {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .site-footer .site-info .widget {

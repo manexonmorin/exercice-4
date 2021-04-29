@@ -1,8 +1,10 @@
 .site-footer{
+    margin: none;
 
     .site-info{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-evenly;
 
         .widget{
