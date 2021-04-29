@@ -1,0 +1,9 @@
+.site-footer .site-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.site-footer .site-info .widget {
+  background-color: rgba(238, 130, 238, 0.5);
+  width: 36vw;
+}/*# sourceMappingURL=footer.css.map */

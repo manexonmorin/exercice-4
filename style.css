@@ -1426,4 +1426,14 @@ La barre du millieu
 .galerie a {
   font-size: 0.6rem;
   color: white;
+}
+
+/* local footer
+--------------------------------------------- */
+.site-footer .site-info {
+  display: flex;
+  flex-direction: row;
+}
+.site-footer .site-info .widget {
+  background-color: rgba(238, 130, 238, 0.5);
 }/*# sourceMappingURL=style.css.map */
