@@ -33,7 +33,7 @@
         maRequete.send()
     }
 /*
-Traitement de l'ajout d'un article de catégorie « Nouvelle » 
+Traitement de l'ajout d'un article de catégorie « Nouvelles » 
 */
 
 }())

@@ -58,6 +58,15 @@ get_header();
 				$precedent = $tPropriété['typeCours'];
 			endwhile;?>
 			</section> <!-- fin section cours -->
+			<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			                                                FORMULAIRE d'ajout d'un article de catégorie « Nouvelles » -->
+			<section class="admin-rapid">
+				<h3>Ajouter un article de catégorie « Nouvelles »</h3>
+				<input type="text" name="title"  placeholder="Titre">
+				<textarea name="content" placeholder="Contenu" ></textarea>
+				<button id="bout-rapid" >Créer une Nouvelle</button>
+			</section>
+			
 			<section class="nouvelles">
 				<button id="bout_nouvelles">Dernière Nouvelles</button>
 				<section>
