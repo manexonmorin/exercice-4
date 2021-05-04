@@ -1,13 +1,13 @@
 (function(){
 
-    let bouton = document.getElementById('bout_nouvelles');
+    // let bouton = document.getElementById('bout_nouvelles');
     let nouvelles = document.querySelector('.nouvelles section');
-    console.log(bouton.id);
-    bouton.addEventListener('mousedown', monAjax);
-
+    // console.log(bouton.id);
+    
+    // bouton.addEventListener('mousedown', monAjax);
+    window.addEventListener('load', monAjax);
     function monAjax(){
 
-        window.addEventListener('load', monAjax);
         let maRequete = new XMLHttpRequest();
         console.log(maRequete);
         maRequete.open('GET', 'http://localhost/4w4-1/wp-json/wp/v2/posts');
