@@ -1,5 +1,5 @@
 /*!
-Theme Name: theme4w4
+Theme Name: francoismarie-4w4
 Theme URI: http://underscores.me/
 Author: eddy martin
 Author URI: http://referenced.ca
@@ -9,7 +9,7 @@ Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: theme4w4
+Text Domain: francoismarie-4w4
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -1446,4 +1446,11 @@ La barre du millieu
 .site-footer .site-info .widget {
   background-color: rgba(238, 130, 238, 0.5);
   width: 36vw;
-}/*# sourceMappingURL=style.css.map */
+}
+
+#bout_nouvelles {
+  display: none;
+}
+
+/* local formulaire
+--------------------------------------------- *//*# sourceMappingURL=style.css.map */
