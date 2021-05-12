@@ -32,3 +32,21 @@ https://github.com/manexonmorin/labo-8
 
 ###### lien page git hub
 https://manexonmorin.github.io/labo-8/
+
+/-------------------------------------------------------------------------------------------------------------------------------------------------------/
+
+# labo-10 #
+* Auteur * --Morin, François Marie Manexon
+
+** J'ai ajouter les photos dans le site. J'ai rajouter un formulaire qui peremet d'ajouter des nouvelles sur le site. Ensuite, j'ai formater l'affichage du formulaire pour que ça soit plus plaisant à regarder. De plus,une fois de plus j'ai encore changé le fond d'écran qui ne fait pas mal aux yeux. 
+
+P.S: l'affichage des images ne fonctionnent pas. j'aurais besoin de votre aide plus-tard.**
+
+###### Lien Webdev
+https://e1937021.webdev.cmaisonneuve.qc.ca/4w4-1/
+
+###### repertoire Git hub
+https://github.com/manexonmorin/labo-10
+
+###### lien page git hub
+https://manexonmorin.github.io/labo-10/
