@@ -52,7 +52,11 @@ get_header();
 
 					elseif ($tPropriété['typeCours'] == 'Projet'):
 						get_template_part( 'template-parts/content', 'galerie' ); 
-				else :		
+
+					elseif ($tProprieté['typeCours'] == 'Projet Personnel'):
+							get_template_part( 'template-parts/content', 'galerie-personnel' ); 
+
+					else :		
 						get_template_part( 'template-parts/content', 'cours-article' ); 
 				endif;	
 				$precedent = $tPropriété['typeCours'];
@@ -116,6 +120,9 @@ function class_bloc($type_de_cours){
 	} 
 	elseif ($type_de_cours == 'Projet'){
 		return('class="galerie"');
+	}
+	elseif ($type_de_cours == 'Projet Personnel'){
+		return('class="galerie-personnel"');
 	}
 	else{
 		return('class="bloc"');
