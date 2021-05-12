@@ -50,3 +50,5 @@ https://github.com/manexonmorin/labo-10
 
 ###### lien page git hub
 https://manexonmorin.github.io/labo-10/
+
+P.S: mettre index.html après le lien de la page git hub pages.
