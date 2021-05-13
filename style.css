@@ -1431,6 +1431,11 @@ La barre du millieu
   color: white;
 }
 
+.perso .flip-card {
+  width: 200px;
+  height: 200px;
+}
+
 /* local galerie personnel
 --------------------------------------------- */
 .galerie-personnel {
@@ -1441,8 +1446,8 @@ La barre du millieu
 .galerie-personnel .flip-card {
   margin: 2%;
   background-color: transparent;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   perspective: 1000px;
 }
 .galerie-personnel .flip-card-inner {

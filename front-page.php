@@ -53,8 +53,8 @@ get_header();
 					elseif ($tPropriété['typeCours'] == 'Projet'):
 						get_template_part( 'template-parts/content', 'galerie' ); 
 
-					// elseif ($tProprieté['typeCours'] == 'Projet Personnel'):
-					// 		get_template_part( 'template-parts/content', 'galerie-personnel' ); 
+					elseif ($tPropriété['typeCours'] == 'Projet Personnel'):
+						get_template_part( 'template-parts/content', 'galerie' ); 
 
 					else :		
 						get_template_part( 'template-parts/content', 'cours-article' ); 
