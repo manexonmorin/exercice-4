@@ -52,3 +52,18 @@ https://github.com/manexonmorin/labo-10
 https://manexonmorin.github.io/labo-10/
 
 P.S: mettre index.html après le lien de la page git hub pages.
+
+/-------------------------------------------------------------------------------------------------------------------------------------------------------/
+
+# TP-2 #
+* Auteur * --Morin, François Marie Manexon
+
+** J'ai ajouter les photos dans le site. J'ai rajouter un formulaire qui peremet d'ajouter des nouvelles sur le site. Ensuite, j'ai formater l'affichage du formulaire pour que ça soit plus plaisant à regarder. De plus,une fois de plus j'ai encore changé le fond d'écran qui ne fait pas mal aux yeux. J'ai modifier la page pour faire en sorte de cacher les cours, mais de seulement les révéler quand on passe le curseur dessus. J'ai modifié les pages des cours en ajoutant un sidebar avec le calendrier et des photos. J'ai enlevé les widget non utile dans les pages de cours. Par exemple, les date de publication, le footer avec le droit d"auteur, la section commentaire.
+
+###### repertoire Git hub
+https://github.com/manexonmorin/tp-2
+
+###### lien page git hub
+https://manexonmorin.github.io/tp-2/
+
+P.S: mettre index.html après le lien de la page git hub pages.

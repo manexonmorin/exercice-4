@@ -1092,6 +1092,9 @@ body.home::after {
 .home #primary header {
   text-align: center;
 }
+.home #primary header .page-title {
+  display: none;
+}
 
 .site-title {
   font-family: "monserrat", monospace;
@@ -1129,6 +1132,7 @@ Liste des blocs de cours par type_de_cours
 }
 .home .cours h2 {
   text-align: center;
+  font-size: clamp(1em, 2em, 3em);
 }
 .home .cours section.bloc {
   display: flex;
@@ -1140,12 +1144,12 @@ Liste des blocs de cours par type_de_cours
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 3.5px solid #ee28ee;
+  border: 4.5px solid black;
   width: 95%;
   margin: 1%;
   padding: 1rem;
   text-align: center;
-  background-color: white;
+  background-color: violet;
 }
 .home .cours section.bloc article p {
   margin: 0.4rem;
@@ -1155,6 +1159,10 @@ Liste des blocs de cours par type_de_cours
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
+}
+.home .cours section.bloc article:hover {
+  border: 3.5px solid #ee28ee;
+  background-color: white;
 }
 @media (min-width: 800px) {
   .home .cours section.bloc article {
@@ -1175,6 +1183,29 @@ Liste des blocs de cours par type_de_cours
 
 #primary-menu li a {
   color: #ee28ee;
+}
+
+.entry-header {
+  color: violet;
+}
+.entry-header .entry-meta {
+  display: none;
+}
+
+.entry-content {
+  color: lightpink;
+}
+
+.entry-footer {
+  display: none;
+}
+
+.post-navigation {
+  display: none;
+}
+
+#comments {
+  display: none;
 }
 
 /* local carrousel
@@ -1245,9 +1276,16 @@ Liste des blocs de cours par type_de_cours
   font-size: 1.2rem;
   text-decoration: none;
 }
-.carrousel-2 .slide__conteneur .slide:nth-of-type(1) {
+.carrousel-2 .slide__conteneur .slide:nth-of-type(1):hover {
   background-color: white;
   border: 3.5px solid violet;
+  justify-content: center;
+}
+.carrousel-2 .slide__conteneur .slide:nth-of-type(1) {
+  background-color: violet;
+  border: 4.5px solid black;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .ctrl-carrousel {
@@ -1391,6 +1429,7 @@ La barre du millieu
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 .galerie .flip-card {
   margin: 2%;
@@ -1431,18 +1470,24 @@ La barre du millieu
   color: white;
 }
 
+.perso .flip-card {
+  width: 200px;
+  height: 200px;
+}
+
 /* local galerie personnel
 --------------------------------------------- */
 .galerie-personnel {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 .galerie-personnel .flip-card {
   margin: 2%;
   background-color: transparent;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   perspective: 1000px;
 }
 .galerie-personnel .flip-card-inner {
@@ -1511,16 +1556,37 @@ La barre du millieu
   height: 50%;
   display: flex;
   flex-direction: column;
-  background-color: white;
-  border: 3px solid violet;
+  background-color: violet;
+  border: 4px solid black;
   align-items: center;
   justify-content: center;
 }
 .admin-rapide input {
   margin-bottom: 10px;
   width: 90%;
+  background-color: violet;
 }
 .admin-rapide .text-area {
   margin-bottom: 10px;
   width: 90%;
+  background-color: violet;
+}
+.admin-rapide #bout-rapide {
+  background-color: violet;
+  color: violet;
+}
+
+.admin-rapide:hover {
+  background-color: white;
+  border: 3px solid violet;
+}
+.admin-rapide:hover input {
+  background-color: white;
+}
+.admin-rapide:hover .text-area {
+  background-color: white;
+}
+.admin-rapide:hover #bout-rapide {
+  background-color: lightgray;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
