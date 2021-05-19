@@ -30,6 +30,10 @@ body.home::after{
         header {
            
             text-align: center;
+
+            .page-title{
+                display: none;
+            }
         }
     }
 
@@ -73,24 +77,26 @@ Liste des blocs de cours par type_de_cours
     color: #EE82EE;
     h2 {
         text-align: center;
-        
+        font-size: clamp(1em, 2em, 3em);
     }
     section.bloc {
        
         display : flex;
         flex-direction: row;
         flex-wrap: wrap;
+
         article {
             display : flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            border : 3.5px solid #ee28ee;
+            border : 4.5px solid black;
             width : 95%;
             margin : 1%;
             padding  : 1rem;
             text-align : center;
-            background-color: white;
+            background-color: violet;
+
             p {
                 margin: .4rem;
                 font-size: 1rem;
@@ -100,6 +106,11 @@ Liste des blocs de cours par type_de_cours
                 font-weight: bold;
                 text-decoration: none;
             }
+        }
+
+        article:hover {
+            border : 3.5px solid #ee28ee;
+            background-color: white;
         }
         @include tablet {
             article {
@@ -130,4 +141,28 @@ Liste des blocs de cours par type_de_cours
             color: #ee28ee;
         }
     }
+}
+
+.entry-header{
+    color: violet;
+
+    .entry-meta{
+        display: none;
+    }
+}
+
+.entry-content{
+    color: lightpink;
+}
+
+.entry-footer{
+    display: none;
+}
+
+.post-navigation{
+    display: none;
+}
+
+#comments{
+    display: none;
 }
